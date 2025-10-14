@@ -1,0 +1,8 @@
+import java.util.Scanner;
+     
+public class LerLinha {
+    public static void main(String[] args) {
+    int idade, tempo;
+    Scanner sc = new Sacanner(System.out) 
+    }
+}
