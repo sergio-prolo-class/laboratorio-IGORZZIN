@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Atividade1 {
@@ -5,7 +6,7 @@ public class Atividade1 {
     Scanner entrada = new Scanner(System.in);
     
     // constantes 
-    double salario = 2000;
+    double salario = 2000.00;
     double comissao = 0.0;
     double bonus = 0.0;
 
@@ -15,9 +16,9 @@ public class Atividade1 {
     System.out.print( "Diga a avaliação do desempenho (1-10): ");
     int avaliaçao = entrada.nextInt();
 
-    if (vendas >= 10000) {
-        comissao = vendas * 7.0;
-    }   else { comissao = vendas * 5.0;}
+    if (vendas >= 10000) 
+        {comissao = vendas * 0.07;}
+      else { comissao = vendas * 0.05;}
 
      // Verifica se tem bônus
         if (avaliaçao >= 8) 
